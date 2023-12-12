@@ -46,27 +46,8 @@ export SHELL=$(which bash)
 #export BFETCH_COLOR="$HOME/.local/textart/color/icon/pacman.textart"
 
 export BFETCH_INFO="pfetch"
-export BFETCH_ART="cowsay '<3 Athena OS'"
+export BFETCH_ART="cowsay '<3 Snigdha OS'"
 export BFETCH_COLOR="$HOME/.local/textart/color/icon/panes.textart"
-
-export PAYLOADS="/usr/share/payloads"
-export SECLISTS="$PAYLOADS/SecLists"
-export PAYLOADSALLTHETHINGS="$PAYLOADS/PayloadsAllTheThings"
-export FUZZDB="$PAYLOADS/FuzzDB"
-export AUTOWORDLISTS="$PAYLOADS/Auto_Wordlists"
-export SECURITYWORDLIST="$PAYLOADS/Security-Wordlist"
-
-export MIMIKATZ="/usr/share/windows/mimikatz/"
-export POWERSPLOIT="/usr/share/windows/powersploit/"
-
-export ROCKYOU="$SECLISTS/Passwords/Leaked-Databases/rockyou.txt"
-export DIRSMALL="$SECLISTS/Discovery/Web-Content/directory-list-2.3-small.txt"
-export DIRMEDIUM="$SECLISTS/Discovery/Web-Content/directory-list-2.3-medium.txt"
-export DIRBIG="$SECLISTS/Discovery/Web-Content/directory-list-2.3-big.txt"
-export WEBAPI_COMMON="$SECLISTS/Discovery/Web-Content/api/api-endpoints.txt"
-export WEBAPI_MAZEN="$SECLISTS/Discovery/Web-Content/common-api-endpoints-mazen160.txt"
-export WEBCOMMON="$SECLISTS/Discovery/Web-Content/common.txt"
-export WEBPARAM="$SECLISTS/Discovery/Web-Content/burp-parameter-names.txt"
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
@@ -80,7 +61,7 @@ eval "$(zoxide init bash)"
 if [[ $(tty) == */dev/tty* ]]; then
   PS1="\e[1;32m[HQ:\e[1;31m$(ip -4 addr | grep -v '127.0.0.1' | grep -v 'secondary' | grep -oP '(?<=inet\s)\d+(\.\d+){3}' | sed -z 's/\n/|/g;s/|\$/\n/' | rev | cut -c 2- | rev) | \u\e[1;32m]\n[>]\[\e[1;36m\]\$(pwd) $ \[\e[0m\]"
 else
-  PS1="\e[1;32m┌──[HQ🚀🌐\e[1;31m$(ip -4 addr | grep -v '127.0.0.1' | grep -v 'secondary' | grep -oP '(?<=inet\s)\d+(\.\d+){3}' | sed -z 's/\n/|/g;s/|\$/\n/' | rev | cut -c 2- | rev)🔥\u\e[1;32m]\n└──╼[👾]\[\e[1;36m\]\$(pwd) $ \[\e[0m\]"
+  PS1="\e[1;32m┌──[HWK🌐\e[1;31m$(ip -4 addr | grep -v '127.0.0.1' | grep -v 'secondary' | grep -oP '(?<=inet\s)\d+(\.\d+){3}' | sed -z 's/\n/|/g;s/|\$/\n/' | rev | cut -c 2- | rev)🔥\u\e[1;32m]\n└──╼[🔥]\[\e[1;36m\]\$(pwd) $ \[\e[0m\]"
 fi
 
 # Use bash-completion, if available
