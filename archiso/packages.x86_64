@@ -129,6 +129,9 @@ xfsprogs
 xl2tpd
 #zsh
 
+################ Chaotic ##########################
+chaotic-keyring
+chaotic-mirrorlist
 
 ################ Snigdha Depends ##################
 snigdha-keyring
