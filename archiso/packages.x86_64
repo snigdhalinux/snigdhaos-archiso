@@ -119,6 +119,7 @@ xfsprogs
 xl2tpd
 #zsh
 
+gdm
 xorg-server
 xorg-apps
 xorg-xinit
