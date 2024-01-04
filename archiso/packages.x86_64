@@ -139,6 +139,8 @@ snigdha-gnome-config
 snigdhaos-gnome-spec
 snigdhaos-gnome-shell
 snigdhaos-neofetch-config
+snigdha-grub-theme
+snigdha-welcome
 
 ###network
 avahi
