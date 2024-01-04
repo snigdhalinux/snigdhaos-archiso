@@ -141,6 +141,7 @@ snigdhaos-gnome-shell
 snigdhaos-neofetch-config
 snigdha-grub-theme
 snigdha-welcome
+snigdhaos-icon
 
 ###network
 avahi
@@ -201,12 +202,13 @@ adobe-source-han-sans-kr-fonts
 adobe-source-han-sans-cn-fonts
 
 steam
+antimicrox
 heroic-games-launcher
 gamehub-bin
 gamemode
 game-devices-udev
-goverlay-bin
-itch
+goverlay
+itch-setup-bin
 legendary
 lutris
 mangohud
@@ -216,7 +218,10 @@ proton-community-updater
 proton-ge-custom
 protontricks
 ##protontricks-git
-protonup-qt-bin
+##protonup-qt-bin
 rare
 steamtinkerlaunch
 vkbasalt
+xmacro
+genymotion
+goverlay-git
