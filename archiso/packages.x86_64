@@ -127,4 +127,18 @@ wpa_supplicant
 wvdial
 xfsprogs
 xl2tpd
-zsh
+#zsh
+
+
+################ Snigdha Depends ##################
+snigdha-keyring
+snigdha-calamares
+snigdha-calamares-config
+snigdha-nighttab-config
+snigdha-brave-config
+snigdha-system-config
+snigdha-system-installation
+snigdha-gnome-config
+snigdhaos-gnome-spec
+snigdhaos-gnome-shell
+snigdhaos-neofetch-config
