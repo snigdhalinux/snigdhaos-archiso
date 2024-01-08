@@ -62,21 +62,22 @@ chaotic-keyring
 chaotic-mirrorlist
 
 ################ Snigdha Depends ##################
-snigdha-keyring
+###snigdha-keyring
 snigdha-calamares
 snigdha-calamares-config
 snigdha-nighttab-config
 snigdha-brave-config
 snigdha-system-config
 snigdha-system-installation
-snigdha-gnome-config
+snigdhaos-gnome-config-badblood
 snigdhaos-gnome-spec
 snigdhaos-gnome-shell
 snigdhaos-neofetch-config
-snigdha-grub-theme
+snigdhaos-grub-theme
 snigdha-welcome
-snigdha-wallpapers
-snigdhaos-icon
+snigdhaos-wallpapers-badblood
+##snigdhaos-icon
+snigdhaos-v-dependency
 
 ###network
 avahi
@@ -135,28 +136,3 @@ qt5-xmlpatterns
 adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
 adobe-source-han-sans-cn-fonts
-
-steam
-antimicrox
-heroic-games-launcher
-gamehub-bin
-gamemode
-game-devices-udev
-goverlay
-itch-setup-bin
-legendary
-lutris
-mangohud
-minigalaxy
-playonlinux
-proton-community-updater
-proton-ge-custom
-protontricks
-##protontricks-git
-##protonup-qt-bin
-rare
-steamtinkerlaunch
-vkbasalt
-xmacro
-genymotion
-goverlay-git
