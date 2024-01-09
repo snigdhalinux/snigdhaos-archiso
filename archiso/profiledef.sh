@@ -2,7 +2,7 @@
 # shellcheck disable=SC2034
 
 iso_name="snigdha"
-iso_label="snigdha-os-v2.1"
+iso_label="snigdha"
 iso_publisher="Snigdha <http://www.snigdhaos.org>"
 iso_application="Snigdha OS Live/Rescue CD"
 iso_version="v2.0"
